@@ -1,4 +1,8 @@
 {
-  "item.mineralfarm.target_block": "目标方块",
-  "block.mineralfarm.farm_block": "矿物农场"
+  "block.mineralfarm.farm_block": "便携矿物农场",
+  "item.mineralfarm.mineral_essence_basic": "初级矿物精华",
+  "item.mineralfarm.mineral_essence_advanced": "中级矿物精华",
+  "item.mineralfarm.mineral_essence_elite": "高级矿物精华",
+  "gui.mineralfarm.farm_block.title": "矿物农场控制面板",
+  "gui.mineralfarm.farm_block.progress": "剩余时间: %s秒"
 }
