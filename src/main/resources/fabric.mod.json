@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mineralfarm",
+  "version": "1.0.0",
+  "name": "矿物农场模组",
+  "description": "自动化矿物农场",
+  "authors": ["你的名字"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.mineralfarm.MineralFarmMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
