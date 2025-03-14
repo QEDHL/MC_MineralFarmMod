@@ -1,7 +1,5 @@
 name: Build Mod
-on:
-  push:
-    branches: [ "main" ]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,8 +12,8 @@ jobs:
           java-version: 17
       - name: Build with Gradle
         run: ./gradlew build
-      - name: Upload build artifacts
+      - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: mod-jar
+          name: mineral-farm-mod
           path: build/libs/*.jar
